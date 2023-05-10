@@ -1,0 +1,158 @@
+Task 1:
+	// function calculate length of string input and return it
+procedure length(s[] : chars){
+	i:=1;
+while(s[i] != \0){ then 
+	i=i+1;
+}
+return i;
+}
+
+// function to reverse string using recursions
+procedure reverse( char *s int start int end){
+	char c;
+}
+
+if(start >= end){ then 
+	return;
+}
+
+c= *(s and start);
+*(s+start) = *(s+end);
+*(s+end) = c;
+
+// call function 
+
+reverse (s, ++start, -- end);
+}
+
+// convert all lower case into uppercase
+// return updated characters
+procedure int uppercase( char s[], int n){
+	int c:= 0; 
+	int counter:=0;
+
+while(c !=n){then
+	if(s[c] >= "a" and s[c] <= "z"){ then 
+	s[c] =s[c] -32;
+counter ++; 
+} 
+c++;
+return counter; 
+}
+
+// main
+char str[];
+
+//read string input from user
+print("enter in string");
+scan(["%[^\n]%*c", str);
+
+//function to calculate length of string
+int length = length(string);
+
+// function reverse string
+
+reverse(string,0,length-1);
+
+//update string to upercase and return it
+int uppercharacters = upper(string,length);
+
+//display characters all in one
+int i;
+
+for(i=0; i<length; i++)
+	print("\n%c", str[i])
+}
+ print("\n\nThe string is %d chars and %d chars were capitalized.", len, upper_chars);
+
+
+_____________________________________________________________________________________________________________________
+Task2:
+
+int procedure sort(int array[], int n, int x){
+	//maybe use insertion or bubble sort for array
+
+ for (int i = 0; i < n - 1; i++){
+        for (int j = 0; j < n - i - 1; j++){
+		if(array[j] > array[j+1])
+			int temporary = array[j];
+			array[j] = array [j+1];
+			array[j+1] = temp;
+		}
+}	}
+
+// find x in the array 
+ for (int i = 0; i < n; i++)
+    {
+        if (arr[i] == x)
+        { return i;
+}
+
+}
+return -1;
+
+}
+
+main(){
+
+int n;
+
+print("enter array size");
+scanf("%d", &n);
+
+int array [n];
+
+print("Enter array Element");
+
+ for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &array[i]);
+    }
+
+int x 
+print("sorted array");
+
+ for (int i = 0; i < n; i++)
+    {
+        printf("%d ", array[i]);
+    }
+
+end program
+}
+
+
+________________________________________________________________________________________________________________________
+Task 3:
+
+int main(){
+
+int function match_content(int match_content(char * file1, char *file2){
+	FILE*Pointer1;
+	FILE*Pointer2;
+
+*Pointer1 = fopen(file1, "r");
+*Pointer2 = fopen(file2, "r");
+
+if(Pointer1 and Pointer2){
+	char a ,b;
+while((a1 =(char)getc(Pointer1))!= EOF and(b=(char)getc(Pointer2))!=EOF){
+	if(a= 'a' and a <='z'){
+		a-=32;
+	}
+	if(b= 'a' and b <='z'){
+		b-=32;
+	}
+	if(a !=b){
+	return0;
+	}
+}
+retun getc(Pointer1)==EOF and getc(fPointer2 ==EOF;
+}
+return 0;
+}
+
+int main(){
+	 printf("%d\n", match_content("file1.txt", "file2.txt"));
+    return 0;
+}

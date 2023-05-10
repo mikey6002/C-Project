@@ -1,0 +1,8 @@
+  What’s the memory address of your swap function?
+		&rbp 
+Which register holds the initial value xp? Which register holds the initial valueyp
+	the register that holds xp is  6, while the register that holds the initial valueyp is -16. 
+
+	What are the memory addresses of the two locations pointed by xp and yp? (5 points) 
+
+The memory addresses of the two locations pointed by xp and yp are -24(%rbp) for xp and -32(%rbp) for yp

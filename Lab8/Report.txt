@@ -1,0 +1,59 @@
+1. All the 6 results are identicial and matrix multiplication run in O(n)^3
+2. The most fastest order is the IJK Order because calculating in rows is more efficient that multiplying in columns
+First Matrix:
+3       5       2       1       5
+6       4       6       7       7
+5       6       7       4       2
+0       3       1       4       4
+7       5       2       6       5
+Second Matrix:
+8       7       4       1       6
+3       1       2       3       3
+8       5       1       9       3
+8       0       4       5       4
+3       1       8       1       5
+
+________________________________
+Multiplication of matrix IJK:
+78      41      68      46      68
+185     83      122     114     129
+152     78      71      108     95
+61      12      55      42      48
+150     69      104     75      112
+________________________________
+Multiplication of matrix KIJ: 
+78      41      68      46      68
+185     83      122     114     129
+152     78      71      108     95
+61      12      55      42      48
+150     69      104     75      112
+Multiplication of matrix JKI:
+78      41      68      46      68
+185     83      122     114     129
+152     78      71      108     95
+61      12      55      42      48
+150     69      104     75      112
+________________________________
+Multiplication of matrix JIK:
+78      41      68      46      68
+185     83      122     114     129
+152     78      71      108     95
+61      12      55      42      48
+150     69      104     75      112
+________________________________
+Multiplication of matrix KJI:
+78      41      68      46      68
+185     83      122     114     129
+152     78      71      108     95
+61      12      55      42      48
+150     69      104     75      112
+________________________________
+Multiplication of matrix IJK:
+78      41      68      46      68
+185     83      122     114     129
+152     78      71      108     95
+61      12      55      42      48
+150     69      104     75      112
+
+
+

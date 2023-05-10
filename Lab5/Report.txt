@@ -1,0 +1,135 @@
+Task1: 
+
+int procedure Checksubstring(char *substring char *string);
+
+
+main(){
+set String size[1000]
+set substring size[1000]
+
+printf("enter string")
+scanf(%[^\n]%*c, & string)
+
+printf("enter substring")
+scanf(%[^\n]%*c, & substring)
+
+if(checksubster(substring,string){
+	print(substring is string of..)
+else{
+	print(substring is not in string of...)
+}
+
+}
+return 0
+
+int procedure Checksubstring(char *substring char *string){
+	int checklength = strlen(sub);
+	int stringlength = strelen(string;
+
+int endposition = stringlength - checklength +1;
+
+	for(int i =0; i<endingposition; i++){
+		bool check = true;
+	for(j=0; j<checklength; j++){
+		if(substring[j] !=string [i+j}
+			set checker =0;
+			break program
+		}
+}
+
+__________________________________________________________________________________________________________________________
+
+Task2 
+
+bool sameCount( char *string1, *string2){
+	int count1 [SIZE] = {0};
+	int count2 [SIZE] = {0};
+	int i;
+
+for (i = 0; string1[i] && string2[i]; i++) {
+	string1[i] = tolower(string1[i]);
+	string2[i] = tolower(string2[i]);
+
+	count1[string1[i]]++;
+	count2[string2[i]]++;
+}
+if(string1[i] || string2[i])
+	return false;
+for(i =0; i<SIZE; i++){
+	if(count1[i] != count2[i])
+		return false;
+	return true;
+}
+
+int main(){
+char string1[SIZE];
+char string2[SIZE];
+print("Enter string 1");
+fgets(string1,SIZE,stdin);
+print("enter string 2");
+fgets(string2,SIZE,stdin);
+
+if(sameCount(string1, string2)== true)
+	print("1")l
+else
+	print("0");
+return0;
+}
+	
+____________________________________________________________________________________________________________________________
+Task3:
+
+char multrest[100][100];
+
+int j=0; 
+int k=0;
+void splitString(char s[100]){
+	for(int i =0; i<stringlength(s);i++){
+		if(s[i]!= ' ')
+		res[j][k++]=s[i];
+		else{		
+			k=0;
+			j++;
+		}
+	}
+}
+
+main(){
+printf("Enter String Or Phrase: \n",s);
+    scanf("%[^\n]s",s);
+    splitString(s);
+  for(int i=0;i<=j;i++){
+      printf("'%s'\n",multrest[i]);
+  }
+    return 0;
+}
+
+____________________________________________________________________________________________________________________________
+
+task 4
+void procedure getString( char string[], int length){
+
+fgets(string,length, stdin);
+
+}
+
+main(){
+char string [4][50], temp var[50];
+print(" enter 4 words");
+
+for(int i=0; i<3; i++){
+	for( j= i+j; j<4; ++j){
+		if (strcmp(str[i], str[j])>0){
+			strcpy(temp, str[i]);
+            		strcpy(str[i], str[j]);
+           		strcpy(str[j], temp var);
+		}
+	}
+}
+
+print("in alphabetical order");
+for(int i =0; i<4; ++i){
+	fputs(string[i], stdout);
+return0;
+}
+

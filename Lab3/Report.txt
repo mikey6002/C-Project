@@ -1,0 +1,138 @@
+main(){
+
+int base(interger x, interger y){
+	int array [10],a,b,i,j;
+	int z;
+
+print("Give me a decimal number a");
+scan("%d", &a);
+
+print("Give me a decimal number b");
+scan("%d", &b);
+
+int orFunction (int a, int b);
+	int array[32];
+
+for(int i=0; i<32; i++){
+	if (a mod 2 ==1 or b mod 2 ==1){
+		array [i]=1;
+	}
+	else array[i] =0;
+	a = a/2;
+	b=b/2;
+}
+
+int answer =0; 
+int multiplier =1;
+	for(int i=31; i>=0; i--) {
+		answer =2 * answer + array [i];
+	}
+	return answer;
+}
+
+int And function (int a, int b){
+	int array[32];
+
+for(int i =0; i<32; i++){
+	if (a mod 2 ==1 and b mod 2 ==1){
+		array[i] =1;
+	}
+	else array [i]=0;
+	a = a/2;
+	b=b/2;
+	}
+int answer = 0;
+int multiplier =1;
+	for(int i=31; i>-0; i--){
+	answer =2 *answer +array[i];
+	}
+	return answer;
+int XOR function (int a, int b){
+	int array [32];
+
+	for(int i=0; i<32; i++){
+		if (a mod 2==1 and b mod 2==1){
+			array[i]=0;
+		if(a mod 2==0; and b mod 2 ==0){
+			array [i]=0;
+		}
+		if (a mod 2 ==0 and b mod 2==0){
+			array[i] = 0;
+		}
+		if(a mod 2 ==1 and b mod 2==0){
+			array [i] = 1;
+		}
+		if( a mod 2 ==0 and b mod 2 ==1){
+			array [i] = 1;
+
+		}
+		a = a/2;
+		b=b/2;
+	}
+in answer =0;
+in multiplier =1;
+for(int i =31; i>=0; i--){
+	answer = 2*answer +array[i];
+	}
+}
+return answer;
+
+  printf("The AND of the two numbers is %d \n", AND(a,b));
+   printf("The OR  of the two numbers is %d \n", orFunction(a,b));
+   printf("The XOR of the two numbers is %d \n", XOR(a,b));
+
+    return 0; 
+}
+
+
+
+
+
+Task 3
+
+Main 
+
+    signed char sc = -7;
+    print("For signed char");
+    print("Dec : %d ", sc);
+    print("Hex : %X \n\n", sc);
+    
+
+    print("For signed char \n");
+    unsigned char usc = sc;
+    print("For signed char \n");
+    print("Dec : %d \n", usc);
+    print("Hex : %X \n\n", usc);
+    
+ 
+    short sx = sc;
+    print("For signed char \n");
+    print("Dec : %d \n", sx);
+    print("Hex : %X \n\n", sx);
+
+     
+    unsigned short usx = sc;
+    print("For signed char :\n");
+    print("Dec : %d \n", usx);
+    print("Hex : %X \n\n", usx);
+    
+   
+    unsigned short usy = sx;
+    print("For signed char :\n");
+    print("Dec : %d \n", usy);
+    print("Hex : %X \n\n", usy);
+    
+
+    int ty = sc;
+    print("For signed char\n");
+    print("Dec : %d \n", ty);
+    print("Hex : %X \n\n", ty);
+    
+    
+    unsigned int uty = ty;
+    print("For signed char \n");
+    print("Dec : %d \n", uty);
+    print("Hex : %X \n\n", uty);
+    
+    return 0;
+}
